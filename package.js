@@ -7,8 +7,8 @@ Package.describe({
 });
 
 Package.onUse(api => {
-  api.use('minimongo', 'server');
-  api.use('isobuild:compiler-plugin');
+  api.use('minimongo@1.0.0', 'server');
+  api.use('isobuild:compiler-plugin@1.0.0');
   api.addFiles('mongo-support.js', 'server');
 });
 
