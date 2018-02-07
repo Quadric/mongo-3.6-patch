@@ -1,6 +1,8 @@
 Package.describe({
   name: 'quadric:mongo-3.6-patch',
   version: '1.0.0',
+  summary: 'minimongo patch to support mongo 3.6',
+  git: 'https://github.com/Quadric/mongo-3.6-patch.git',
   prodOnly: false,
 });
 
